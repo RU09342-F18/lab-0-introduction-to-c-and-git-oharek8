@@ -1,3 +1,9 @@
+//Kevin O'Hare
+//Embedded Systems Section 1
+//Email: oharek8@students.rowan.edu
+//Dependent Libraries: math.h
+
+
 int math(int num1, int num2, char Operator)
 /*Inputs are the First and Second Integers, as well as the desired operation*/
 {
