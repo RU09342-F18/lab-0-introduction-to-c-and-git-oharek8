@@ -33,5 +33,8 @@ The result of this function is returned as an integer.
 10. '^' Xor - Binary Xors two integers
 11. '~' Invert - Binary inverts first integer (While the second integer is unused, one must still be provided)
 
+# Troubleshooting
+If using the function results in an error, there are two things you can check. First, make sure you are passing the variables in the right order. Passing a character through an integer port will result in an error. Second, make sure you are passing through the right data types. Mistkaing a float or decimal number for an integer, or a string for a character will result in a data mismatch, and could cause the program to crash.
+
 # Closing Remarks
 I hope this README has explained the functionality of the code to your liking. If you have any comments, questions, suggestions, or concerns, please feel free to email me at oharek8@students.rowan.edu, or message me on Slack.
